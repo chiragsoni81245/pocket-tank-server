@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.arena-container {
+    flex: 0.7;
+}
+
+.controller-container {
+    flex: 0.3;
+    border-top: 2px solid black;
+    background-color: red;
+}
